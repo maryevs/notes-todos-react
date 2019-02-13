@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*#root {*/
+    /*flexGrow: 1;*/
+/*}*/
+
+.paper {
+    padding: 5px;
+    margin: 5px;
+    textAlign: 'center';
+    min-height: 10px;
+    border-bottom: 1px solid #E6E5E5;
+}
+
+.MuiButton-root-519 {
+    margin: 5px !important;
+}
+
+span {
+    color: gray;
+    font-style: italic;
+}
+
+.currentNote {
+    width: 100%;
+    height: 300px;
+}
+
+.router {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button.btn {
+    border: 1px solid #E6E5E5 !important;
+    margin-left: 4px;
+}
+
+.gray {
+    background-color: #E6E5E5;
+}
+
+.white {
+    background-color: white;
+}
+
+.grayItalic {
+    color: gray;
+    font-style: italic;
+}
+
+.todoTextDecorLine {
+    text-decoration: line-through;
+}
+
+.todoTextDecorNone {
+    text-decoration: none;
+}
